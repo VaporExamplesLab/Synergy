@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A8FAA1224AE1F300E1C73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FAA0224AE1F300E1C73A /* AppDelegate.swift */; };
+		49A8FAA3224AE1F300E1C73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FAA2224AE1F300E1C73A /* ViewController.swift */; };
+		49A8FAA6224AE1F300E1C73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A8FAA4224AE1F300E1C73A /* Main.storyboard */; };
+		49A8FAA8224AE1F400E1C73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A8FAA7224AE1F400E1C73A /* Assets.xcassets */; };
+		49A8FAAB224AE1F400E1C73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A8FAA9224AE1F400E1C73A /* LaunchScreen.storyboard */; };
+		49A8FAB6224AE1F400E1C73A /* SynergyIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FAB5224AE1F400E1C73A /* SynergyIOSTests.swift */; };
+		49A8FAC1224AE1F400E1C73A /* SynergyIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FAC0224AE1F400E1C73A /* SynergyIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A8FAB2224AE1F400E1C73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A8FA95224AE1F300E1C73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A8FA9C224AE1F300E1C73A;
+			remoteInfo = SynergyIOS;
+		};
+		49A8FABD224AE1F400E1C73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A8FA95224AE1F300E1C73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A8FA9C224AE1F300E1C73A;
+			remoteInfo = SynergyIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A8FA9D224AE1F300E1C73A /* SynergyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynergyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8FAA0224AE1F300E1C73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49A8FAA2224AE1F300E1C73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49A8FAA5224AE1F300E1C73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A8FAA7224AE1F400E1C73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A8FAAA224AE1F400E1C73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A8FAAC224AE1F400E1C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A8FAB1224AE1F400E1C73A /* SynergyIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynergyIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8FAB5224AE1F400E1C73A /* SynergyIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynergyIOSTests.swift; sourceTree = "<group>"; };
+		49A8FAB7224AE1F400E1C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A8FABC224AE1F400E1C73A /* SynergyIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynergyIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8FAC0224AE1F400E1C73A /* SynergyIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynergyIOSUITests.swift; sourceTree = "<group>"; };
+		49A8FAC2224AE1F400E1C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A8FA9A224AE1F300E1C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FAAE224AE1F400E1C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FAB9224AE1F400E1C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A8FA94224AE1F300E1C73A = {
+			isa = PBXGroup;
+			children = (
+				49A8FA9F224AE1F300E1C73A /* SynergyIOS */,
+				49A8FAB4224AE1F400E1C73A /* SynergyIOSTests */,
+				49A8FABF224AE1F400E1C73A /* SynergyIOSUITests */,
+				49A8FA9E224AE1F300E1C73A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A8FA9E224AE1F300E1C73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FA9D224AE1F300E1C73A /* SynergyIOS.app */,
+				49A8FAB1224AE1F400E1C73A /* SynergyIOSTests.xctest */,
+				49A8FABC224AE1F400E1C73A /* SynergyIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A8FA9F224AE1F300E1C73A /* SynergyIOS */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FAA0224AE1F300E1C73A /* AppDelegate.swift */,
+				49A8FAA2224AE1F300E1C73A /* ViewController.swift */,
+				49A8FAA4224AE1F300E1C73A /* Main.storyboard */,
+				49A8FAA7224AE1F400E1C73A /* Assets.xcassets */,
+				49A8FAA9224AE1F400E1C73A /* LaunchScreen.storyboard */,
+				49A8FAAC224AE1F400E1C73A /* Info.plist */,
+			);
+			path = SynergyIOS;
+			sourceTree = "<group>";
+		};
+		49A8FAB4224AE1F400E1C73A /* SynergyIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FAB5224AE1F400E1C73A /* SynergyIOSTests.swift */,
+				49A8FAB7224AE1F400E1C73A /* Info.plist */,
+			);
+			path = SynergyIOSTests;
+			sourceTree = "<group>";
+		};
+		49A8FABF224AE1F400E1C73A /* SynergyIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FAC0224AE1F400E1C73A /* SynergyIOSUITests.swift */,
+				49A8FAC2224AE1F400E1C73A /* Info.plist */,
+			);
+			path = SynergyIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A8FA9C224AE1F300E1C73A /* SynergyIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A8FAC5224AE1F400E1C73A /* Build configuration list for PBXNativeTarget "SynergyIOS" */;
+			buildPhases = (
+				49A8FA99224AE1F300E1C73A /* Sources */,
+				49A8FA9A224AE1F300E1C73A /* Frameworks */,
+				49A8FA9B224AE1F300E1C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynergyIOS;
+			productName = SynergyIOS;
+			productReference = 49A8FA9D224AE1F300E1C73A /* SynergyIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A8FAB0224AE1F400E1C73A /* SynergyIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A8FAC8224AE1F400E1C73A /* Build configuration list for PBXNativeTarget "SynergyIOSTests" */;
+			buildPhases = (
+				49A8FAAD224AE1F400E1C73A /* Sources */,
+				49A8FAAE224AE1F400E1C73A /* Frameworks */,
+				49A8FAAF224AE1F400E1C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A8FAB3224AE1F400E1C73A /* PBXTargetDependency */,
+			);
+			name = SynergyIOSTests;
+			productName = SynergyIOSTests;
+			productReference = 49A8FAB1224AE1F400E1C73A /* SynergyIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A8FABB224AE1F400E1C73A /* SynergyIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A8FACB224AE1F400E1C73A /* Build configuration list for PBXNativeTarget "SynergyIOSUITests" */;
+			buildPhases = (
+				49A8FAB8224AE1F400E1C73A /* Sources */,
+				49A8FAB9224AE1F400E1C73A /* Frameworks */,
+				49A8FABA224AE1F400E1C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A8FABE224AE1F400E1C73A /* PBXTargetDependency */,
+			);
+			name = SynergyIOSUITests;
+			productName = SynergyIOSUITests;
+			productReference = 49A8FABC224AE1F400E1C73A /* SynergyIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A8FA95224AE1F300E1C73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = VaporExamplesLab;
+				TargetAttributes = {
+					49A8FA9C224AE1F300E1C73A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					49A8FAB0224AE1F400E1C73A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49A8FA9C224AE1F300E1C73A;
+					};
+					49A8FABB224AE1F400E1C73A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49A8FA9C224AE1F300E1C73A;
+					};
+				};
+			};
+			buildConfigurationList = 49A8FA98224AE1F300E1C73A /* Build configuration list for PBXProject "SynergyIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A8FA94224AE1F300E1C73A;
+			productRefGroup = 49A8FA9E224AE1F300E1C73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A8FA9C224AE1F300E1C73A /* SynergyIOS */,
+				49A8FAB0224AE1F400E1C73A /* SynergyIOSTests */,
+				49A8FABB224AE1F400E1C73A /* SynergyIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A8FA9B224AE1F300E1C73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FAAB224AE1F400E1C73A /* LaunchScreen.storyboard in Resources */,
+				49A8FAA8224AE1F400E1C73A /* Assets.xcassets in Resources */,
+				49A8FAA6224AE1F300E1C73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FAAF224AE1F400E1C73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FABA224AE1F400E1C73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A8FA99224AE1F300E1C73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FAA3224AE1F300E1C73A /* ViewController.swift in Sources */,
+				49A8FAA1224AE1F300E1C73A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FAAD224AE1F400E1C73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FAB6224AE1F400E1C73A /* SynergyIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FAB8224AE1F400E1C73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FAC1224AE1F400E1C73A /* SynergyIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A8FAB3224AE1F400E1C73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A8FA9C224AE1F300E1C73A /* SynergyIOS */;
+			targetProxy = 49A8FAB2224AE1F400E1C73A /* PBXContainerItemProxy */;
+		};
+		49A8FABE224AE1F400E1C73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A8FA9C224AE1F300E1C73A /* SynergyIOS */;
+			targetProxy = 49A8FABD224AE1F400E1C73A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A8FAA4224AE1F300E1C73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A8FAA5224AE1F300E1C73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A8FAA9224AE1F400E1C73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A8FAAA224AE1F400E1C73A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A8FAC3224AE1F400E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49A8FAC4224AE1F400E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A8FAC6224AE1F400E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SynergyIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49A8FAC7224AE1F400E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SynergyIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49A8FAC9224AE1F400E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SynergyIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynergyIOS.app/SynergyIOS";
+			};
+			name = Debug;
+		};
+		49A8FACA224AE1F400E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SynergyIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynergyIOS.app/SynergyIOS";
+			};
+			name = Release;
+		};
+		49A8FACC224AE1F400E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SynergyIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SynergyIOS;
+			};
+			name = Debug;
+		};
+		49A8FACD224AE1F400E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SynergyIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SynergyIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A8FA98224AE1F300E1C73A /* Build configuration list for PBXProject "SynergyIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FAC3224AE1F400E1C73A /* Debug */,
+				49A8FAC4224AE1F400E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A8FAC5224AE1F400E1C73A /* Build configuration list for PBXNativeTarget "SynergyIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FAC6224AE1F400E1C73A /* Debug */,
+				49A8FAC7224AE1F400E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A8FAC8224AE1F400E1C73A /* Build configuration list for PBXNativeTarget "SynergyIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FAC9224AE1F400E1C73A /* Debug */,
+				49A8FACA224AE1F400E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A8FACB224AE1F400E1C73A /* Build configuration list for PBXNativeTarget "SynergyIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FACC224AE1F400E1C73A /* Debug */,
+				49A8FACD224AE1F400E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A8FA95224AE1F300E1C73A /* Project object */;
+}

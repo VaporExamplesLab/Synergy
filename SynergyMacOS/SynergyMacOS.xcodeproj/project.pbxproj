@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A8FA69224AE1D300E1C73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FA68224AE1D300E1C73A /* AppDelegate.swift */; };
+		49A8FA6B224AE1D300E1C73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FA6A224AE1D300E1C73A /* ViewController.swift */; };
+		49A8FA6D224AE1D400E1C73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A8FA6C224AE1D400E1C73A /* Assets.xcassets */; };
+		49A8FA70224AE1D400E1C73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A8FA6E224AE1D400E1C73A /* Main.storyboard */; };
+		49A8FA7C224AE1D500E1C73A /* SynergyMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FA7B224AE1D500E1C73A /* SynergyMacOSTests.swift */; };
+		49A8FA87224AE1D500E1C73A /* SynergyMacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8FA86224AE1D500E1C73A /* SynergyMacOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A8FA78224AE1D500E1C73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A8FA5D224AE1D200E1C73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A8FA64224AE1D200E1C73A;
+			remoteInfo = SynergyMacOS;
+		};
+		49A8FA83224AE1D500E1C73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A8FA5D224AE1D200E1C73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A8FA64224AE1D200E1C73A;
+			remoteInfo = SynergyMacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A8FA65224AE1D200E1C73A /* SynergyMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynergyMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8FA68224AE1D300E1C73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49A8FA6A224AE1D300E1C73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49A8FA6C224AE1D400E1C73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A8FA6F224AE1D400E1C73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A8FA71224AE1D400E1C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A8FA72224AE1D500E1C73A /* SynergyMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SynergyMacOS.entitlements; sourceTree = "<group>"; };
+		49A8FA77224AE1D500E1C73A /* SynergyMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynergyMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8FA7B224AE1D500E1C73A /* SynergyMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynergyMacOSTests.swift; sourceTree = "<group>"; };
+		49A8FA7D224AE1D500E1C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A8FA82224AE1D500E1C73A /* SynergyMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynergyMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8FA86224AE1D500E1C73A /* SynergyMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynergyMacOSUITests.swift; sourceTree = "<group>"; };
+		49A8FA88224AE1D500E1C73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A8FA62224AE1D200E1C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FA74224AE1D500E1C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FA7F224AE1D500E1C73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A8FA5C224AE1D200E1C73A = {
+			isa = PBXGroup;
+			children = (
+				49A8FA67224AE1D200E1C73A /* SynergyMacOS */,
+				49A8FA7A224AE1D500E1C73A /* SynergyMacOSTests */,
+				49A8FA85224AE1D500E1C73A /* SynergyMacOSUITests */,
+				49A8FA66224AE1D200E1C73A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A8FA66224AE1D200E1C73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FA65224AE1D200E1C73A /* SynergyMacOS.app */,
+				49A8FA77224AE1D500E1C73A /* SynergyMacOSTests.xctest */,
+				49A8FA82224AE1D500E1C73A /* SynergyMacOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A8FA67224AE1D200E1C73A /* SynergyMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FA68224AE1D300E1C73A /* AppDelegate.swift */,
+				49A8FA6A224AE1D300E1C73A /* ViewController.swift */,
+				49A8FA6C224AE1D400E1C73A /* Assets.xcassets */,
+				49A8FA6E224AE1D400E1C73A /* Main.storyboard */,
+				49A8FA71224AE1D400E1C73A /* Info.plist */,
+				49A8FA72224AE1D500E1C73A /* SynergyMacOS.entitlements */,
+			);
+			path = SynergyMacOS;
+			sourceTree = "<group>";
+		};
+		49A8FA7A224AE1D500E1C73A /* SynergyMacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FA7B224AE1D500E1C73A /* SynergyMacOSTests.swift */,
+				49A8FA7D224AE1D500E1C73A /* Info.plist */,
+			);
+			path = SynergyMacOSTests;
+			sourceTree = "<group>";
+		};
+		49A8FA85224AE1D500E1C73A /* SynergyMacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A8FA86224AE1D500E1C73A /* SynergyMacOSUITests.swift */,
+				49A8FA88224AE1D500E1C73A /* Info.plist */,
+			);
+			path = SynergyMacOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A8FA64224AE1D200E1C73A /* SynergyMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A8FA8B224AE1D500E1C73A /* Build configuration list for PBXNativeTarget "SynergyMacOS" */;
+			buildPhases = (
+				49A8FA61224AE1D200E1C73A /* Sources */,
+				49A8FA62224AE1D200E1C73A /* Frameworks */,
+				49A8FA63224AE1D200E1C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynergyMacOS;
+			productName = SynergyMacOS;
+			productReference = 49A8FA65224AE1D200E1C73A /* SynergyMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A8FA76224AE1D500E1C73A /* SynergyMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A8FA8E224AE1D500E1C73A /* Build configuration list for PBXNativeTarget "SynergyMacOSTests" */;
+			buildPhases = (
+				49A8FA73224AE1D500E1C73A /* Sources */,
+				49A8FA74224AE1D500E1C73A /* Frameworks */,
+				49A8FA75224AE1D500E1C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A8FA79224AE1D500E1C73A /* PBXTargetDependency */,
+			);
+			name = SynergyMacOSTests;
+			productName = SynergyMacOSTests;
+			productReference = 49A8FA77224AE1D500E1C73A /* SynergyMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A8FA81224AE1D500E1C73A /* SynergyMacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A8FA91224AE1D500E1C73A /* Build configuration list for PBXNativeTarget "SynergyMacOSUITests" */;
+			buildPhases = (
+				49A8FA7E224AE1D500E1C73A /* Sources */,
+				49A8FA7F224AE1D500E1C73A /* Frameworks */,
+				49A8FA80224AE1D500E1C73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A8FA84224AE1D500E1C73A /* PBXTargetDependency */,
+			);
+			name = SynergyMacOSUITests;
+			productName = SynergyMacOSUITests;
+			productReference = 49A8FA82224AE1D500E1C73A /* SynergyMacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A8FA5D224AE1D200E1C73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = VaporExamplesLab;
+				TargetAttributes = {
+					49A8FA64224AE1D200E1C73A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					49A8FA76224AE1D500E1C73A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49A8FA64224AE1D200E1C73A;
+					};
+					49A8FA81224AE1D500E1C73A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49A8FA64224AE1D200E1C73A;
+					};
+				};
+			};
+			buildConfigurationList = 49A8FA60224AE1D200E1C73A /* Build configuration list for PBXProject "SynergyMacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A8FA5C224AE1D200E1C73A;
+			productRefGroup = 49A8FA66224AE1D200E1C73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A8FA64224AE1D200E1C73A /* SynergyMacOS */,
+				49A8FA76224AE1D500E1C73A /* SynergyMacOSTests */,
+				49A8FA81224AE1D500E1C73A /* SynergyMacOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A8FA63224AE1D200E1C73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FA6D224AE1D400E1C73A /* Assets.xcassets in Resources */,
+				49A8FA70224AE1D400E1C73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FA75224AE1D500E1C73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FA80224AE1D500E1C73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A8FA61224AE1D200E1C73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FA6B224AE1D300E1C73A /* ViewController.swift in Sources */,
+				49A8FA69224AE1D300E1C73A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FA73224AE1D500E1C73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FA7C224AE1D500E1C73A /* SynergyMacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A8FA7E224AE1D500E1C73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8FA87224AE1D500E1C73A /* SynergyMacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A8FA79224AE1D500E1C73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A8FA64224AE1D200E1C73A /* SynergyMacOS */;
+			targetProxy = 49A8FA78224AE1D500E1C73A /* PBXContainerItemProxy */;
+		};
+		49A8FA84224AE1D500E1C73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A8FA64224AE1D200E1C73A /* SynergyMacOS */;
+			targetProxy = 49A8FA83224AE1D500E1C73A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A8FA6E224AE1D400E1C73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A8FA6F224AE1D400E1C73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A8FA89224AE1D500E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49A8FA8A224AE1D500E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		49A8FA8C224AE1D500E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SynergyMacOS/SynergyMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SynergyMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		49A8FA8D224AE1D500E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SynergyMacOS/SynergyMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SynergyMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		49A8FA8F224AE1D500E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SynergyMacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynergyMacOS.app/Contents/MacOS/SynergyMacOS";
+			};
+			name = Debug;
+		};
+		49A8FA90224AE1D500E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SynergyMacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynergyMacOS.app/Contents/MacOS/SynergyMacOS";
+			};
+			name = Release;
+		};
+		49A8FA92224AE1D500E1C73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SynergyMacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyMacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SynergyMacOS;
+			};
+			name = Debug;
+		};
+		49A8FA93224AE1D500E1C73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SynergyMacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.VaporExamplesLab.SynergyMacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SynergyMacOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A8FA60224AE1D200E1C73A /* Build configuration list for PBXProject "SynergyMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FA89224AE1D500E1C73A /* Debug */,
+				49A8FA8A224AE1D500E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A8FA8B224AE1D500E1C73A /* Build configuration list for PBXNativeTarget "SynergyMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FA8C224AE1D500E1C73A /* Debug */,
+				49A8FA8D224AE1D500E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A8FA8E224AE1D500E1C73A /* Build configuration list for PBXNativeTarget "SynergyMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FA8F224AE1D500E1C73A /* Debug */,
+				49A8FA90224AE1D500E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A8FA91224AE1D500E1C73A /* Build configuration list for PBXNativeTarget "SynergyMacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A8FA92224AE1D500E1C73A /* Debug */,
+				49A8FA93224AE1D500E1C73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A8FA5D224AE1D200E1C73A /* Project object */;
+}
