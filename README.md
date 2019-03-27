@@ -61,6 +61,8 @@ swift package generate-xcodeproj \
     --output SynergyAPI_macOS
 ```
 
+![SubprojectSynergyAPI](README_files/SubprojectSynergyAPI.png)
+
 ## Resources <a id="Resources">[▴](#toc)</a>
 
 * [StackOverflow: How do I use Swift Package Manager with an existing macOS project? ⇗](https://stackoverflow.com/questions/48837369/how-do-i-use-swift-package-manager-with-an-existing-macos-project)
